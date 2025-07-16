@@ -3,7 +3,7 @@
 Welcome to the Hangman Game, implemented in Python!
 
 ## Overview
-This project is a text-based implementation of the classic Hangman game. Players can enter a word, choose a random word from a predefined list, or have the computer randomly select a word for them. Another player then guesses letters one at a time or attempts to guess the entire word. The game features a visual representation of the hangman's gallows that dynamically updates as incorrect guesses are made.
+This project is a text-based implementation of the classic Hangman game. Players can enter a word, choose a random word from a predefined list, or have the computer randomly select a word for them. Another player then guesses letters one at a time or attempts to guess the entire word. The game features a visual representation of the hangman's gallows that dynamically updates as incorrect guesses are made. Don't hesitate if the console doesn't show your text: this is intentional. The game uses `getpass` to hide Player 1’s input for secrecy. Just type the word or phrase and press Enter.
 
 ## Features
 - **Dynamic Hangman Display**: ASCII art representation of the hangman figure evolves with each incorrect guess.
